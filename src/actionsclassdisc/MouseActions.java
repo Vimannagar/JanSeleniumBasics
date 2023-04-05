@@ -25,6 +25,9 @@ public class MouseActions {
 		
 		driver.findElement(By.xpath("//*[@id='link2']")).click();
 		
+		
+		
+		
 	}
 
 }
