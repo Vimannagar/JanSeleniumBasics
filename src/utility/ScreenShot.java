@@ -15,7 +15,20 @@ public class ScreenShot {
 	
 //	WAP to capture the screenshot using a method that ask the filename from user
 	
-	
+	public static void getScreenshotWithFilename(WebDriver driver, String filename) throws IOException
+	{
+		TakesScreenshot ts = (TakesScreenshot) driver;
+
+		File source = ts.getScreenshotAs(OutputType.FILE);
+
+//		String path = "F:\\Desktop\\VimanNagar\\May 21\\Jan7SeleniumBasics\\Screenshots\\google.jpg";
+
+		String path = System.getProperty("user.dir")+"\\Screenshots\\"+filename+".jpg";
+		
+		File file = new File(path);
+
+		FileHandler.copy(source, file);
+	}
 	
 	
 
