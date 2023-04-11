@@ -19,7 +19,7 @@ public class Handling2Windows {
 		
 	driver.findElement(By.xpath("//*[@id='non-users-notice-link']")).click();
 	
-	
+	String childid = "";
 	
 	Set<String> allwindowid = driver.getWindowHandles();
 	
@@ -29,6 +29,8 @@ public class Handling2Windows {
 					
 					if(!(parentid.equals(winid)))
 							{
+						
+						childid = winid;
 						driver.switchTo().window(winid);
 						
 						
@@ -43,6 +45,11 @@ public class Handling2Windows {
 	
 	
 	driver.findElement(By.xpath("//*[@name='firstname']")).sendKeys("parent window handling");
+	
+	
+	driver.switchTo().window(childid);
+	
+	
 	}
 
 }
