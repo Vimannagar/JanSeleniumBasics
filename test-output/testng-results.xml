@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-17T08:47:51 IST" name="Default suite" finished-at="2023-04-17T08:47:51 IST" duration-ms="186">
+  <suite started-at="2023-04-18T09:02:22 IST" name="Suite" finished-at="2023-04-18T09:02:22 IST" duration-ms="191">
     <groups>
     </groups>
-    <test started-at="2023-04-17T08:47:51 IST" name="Default test" finished-at="2023-04-17T08:47:51 IST" duration-ms="186">
-      <class name="testngdiscussion.InvocationCountKeyword">
-        <test-method signature="profile()[pri:-3, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="profile" finished-at="2023-04-17T08:47:51 IST" duration-ms="22" status="PASS">
+    <test started-at="2023-04-18T09:02:22 IST" name="Test" finished-at="2023-04-18T09:02:22 IST" duration-ms="191">
+      <class name="testngdiscussion.Logout">
+        <test-method signature="logoutFromApp()[pri:0, instance:testngdiscussion.Logout@290222c1]" started-at="2023-04-18T09:02:22 IST" name="logoutFromApp" finished-at="2023-04-18T09:02:22 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profile -->
-        <test-method signature="login()[pri:1, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="login" finished-at="2023-04-17T08:47:51 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- logoutFromApp -->
+      </class> <!-- testngdiscussion.Logout -->
+      <class name="testngdiscussion.LoginPage">
+        <test-method signature="loginToApp()[pri:0, instance:testngdiscussion.LoginPage@7c711375]" started-at="2023-04-18T09:02:22 IST" name="loginToApp" finished-at="2023-04-18T09:02:22 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="home" finished-at="2023-04-17T08:47:51 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyTitle()[pri:0, instance:testngdiscussion.LoginPage@7c711375]" started-at="2023-04-18T09:02:22 IST" name="verifyTitle" finished-at="2023-04-18T09:02:22 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="home" finished-at="2023-04-17T08:47:51 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- testngdiscussion.LoginPage -->
+      <class name="testngdiscussion.HomePage">
+        <test-method signature="addProfile()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="addProfile" finished-at="2023-04-18T09:02:22 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="home" finished-at="2023-04-17T08:47:51 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- addProfile -->
+        <test-method signature="deleteProfile()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="deleteProfile" finished-at="2023-04-18T09:02:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="home" finished-at="2023-04-17T08:47:51 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- deleteProfile -->
+        <test-method signature="getInformation()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="getInformation" finished-at="2023-04-18T09:02:22 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="home()[pri:2, instance:testngdiscussion.InvocationCountKeyword@485966cc]" started-at="2023-04-17T08:47:51 IST" name="home" finished-at="2023-04-17T08:47:51 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- home -->
-      </class> <!-- testngdiscussion.InvocationCountKeyword -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getInformation -->
+      </class> <!-- testngdiscussion.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
