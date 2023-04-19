@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-18T09:02:22 IST" name="Suite" finished-at="2023-04-18T09:02:22 IST" duration-ms="191">
+  <suite started-at="2023-04-19T09:00:48 IST" name="Default suite" finished-at="2023-04-19T09:01:11 IST" duration-ms="23514">
     <groups>
     </groups>
-    <test started-at="2023-04-18T09:02:22 IST" name="Test" finished-at="2023-04-18T09:02:22 IST" duration-ms="191">
-      <class name="testngdiscussion.Logout">
-        <test-method signature="logoutFromApp()[pri:0, instance:testngdiscussion.Logout@290222c1]" started-at="2023-04-18T09:02:22 IST" name="logoutFromApp" finished-at="2023-04-18T09:02:22 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-04-19T09:00:48 IST" name="Default test" finished-at="2023-04-19T09:01:11 IST" duration-ms="23514">
+      <class name="testngdiscussion.AssertionsInTestNG">
+        <test-method signature="loginTest()[pri:0, instance:testngdiscussion.AssertionsInTestNG@c88a337]" started-at="2023-04-19T09:00:48 IST" name="loginTest" finished-at="2023-04-19T09:01:11 IST" duration-ms="23428" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutFromApp -->
-      </class> <!-- testngdiscussion.Logout -->
-      <class name="testngdiscussion.LoginPage">
-        <test-method signature="loginToApp()[pri:0, instance:testngdiscussion.LoginPage@7c711375]" started-at="2023-04-18T09:02:22 IST" name="loginToApp" finished-at="2023-04-18T09:02:22 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="verifyTitle()[pri:0, instance:testngdiscussion.LoginPage@7c711375]" started-at="2023-04-18T09:02:22 IST" name="verifyTitle" finished-at="2023-04-18T09:02:22 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-      </class> <!-- testngdiscussion.LoginPage -->
-      <class name="testngdiscussion.HomePage">
-        <test-method signature="addProfile()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="addProfile" finished-at="2023-04-18T09:02:22 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProfile -->
-        <test-method signature="deleteProfile()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="deleteProfile" finished-at="2023-04-18T09:02:22 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteProfile -->
-        <test-method signature="getInformation()[pri:0, instance:testngdiscussion.HomePage@12aba8be]" started-at="2023-04-18T09:02:22 IST" name="getInformation" finished-at="2023-04-18T09:02:22 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getInformation -->
-      </class> <!-- testngdiscussion.HomePage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- testngdiscussion.AssertionsInTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
