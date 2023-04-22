@@ -3,17 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testngdiscussion.DOMClass2">
+      <class name="testngdiscussion.TestClass2">
         <methods>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- testngdiscussion.DOMClass2 -->
-      <class name="testngdiscussion.DOMClass1">
-        <methods>
-          <include name="homePage"/>
           <include name="loginToApp"/>
         </methods>
-      </class> <!-- testngdiscussion.DOMClass1 -->
+      </class> <!-- testngdiscussion.TestClass2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
