@@ -1,10 +1,26 @@
 package testngdiscussion;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Annotations {
+	
+	@BeforeClass
+	public void beforeClass()
+	{
+		System.out.println("Before class");
+	}
+	
+	
+	@AfterClass
+	public void afterClass()
+	{
+		System.out.println("After class");
+	}
 	
 	@BeforeMethod
 	public void beforeMethod()
@@ -18,7 +34,11 @@ public class Annotations {
 	{
 		System.out.println("After method");
 	}
-	
+	@AfterTest
+	public void afterTest()
+	{
+		System.out.println("After Test");
+	}
 	@Test
 	public void testCase1()
 	{

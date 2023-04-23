@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1"><!-- Before Test-->
+    <classes>
+      <class name="testngdiscussion.Annotations"/>
+            <class name="testngdiscussion.Annotations2"/>
+    </classes>
+  </test> <!-- Test --><!-- After Test-->
+  
+  <test thread-count="5" name="Test2"><!-- Before Test-->
+    <classes>
+      <class name="testngdiscussion.Annotations2"/>
+           
+    </classes>
+  </test> <!-- Test --><!-- After Test-->
+</suite> <!-- Suite -->
