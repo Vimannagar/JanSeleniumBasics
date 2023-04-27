@@ -6,13 +6,11 @@
   </listeners>
   <test thread-count="5" name="Module1(failed)">
     <classes>
-      <class name="testngdiscussion.TestClass">
+      <class name="testngdiscussion.MMTTestClass">
         <methods>
-          <include name="setDetails"/>
-          <include name="login"/>
-          <include name="home"/>
+          <include name="searchFlight"/>
         </methods>
-      </class> <!-- testngdiscussion.TestClass -->
+      </class> <!-- testngdiscussion.MMTTestClass -->
     </classes>
   </test> <!-- Module1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
