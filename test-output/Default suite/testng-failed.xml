@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.MMTTestClass">
+      <class name="waits.ImplicitWait2">
         <methods>
-          <include name="searchFlight"/>
+          <include name="clickOnLink"/>
         </methods>
-      </class> <!-- testngdiscussion.MMTTestClass -->
+      </class> <!-- waits.ImplicitWait2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
