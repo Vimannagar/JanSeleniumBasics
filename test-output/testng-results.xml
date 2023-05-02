@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-29T09:04:09 IST" name="Default suite" finished-at="2023-04-29T09:04:33 IST" duration-ms="23479">
+  <suite started-at="2023-05-02T08:48:19 IST" name="Default suite" finished-at="2023-05-02T08:48:41 IST" duration-ms="22486">
     <groups>
     </groups>
-    <test started-at="2023-04-29T09:04:09 IST" name="Default test" finished-at="2023-04-29T09:04:33 IST" duration-ms="23479">
-      <class name="waits.AmazonForCarouselTest">
-        <test-method signature="carouselTest()[pri:0, instance:waits.AmazonForCarouselTest@c88a337]" started-at="2023-04-29T09:04:10 IST" name="carouselTest" finished-at="2023-04-29T09:04:33 IST" duration-ms="23384" status="PASS">
+    <test started-at="2023-05-02T08:48:19 IST" name="Default test" finished-at="2023-05-02T08:48:41 IST" duration-ms="22486">
+      <class name="waits.ElementSelectionStateValidation">
+        <test-method signature="validateCheckbox()[pri:0, instance:waits.ElementSelectionStateValidation@c88a337]" started-at="2023-05-02T08:48:19 IST" name="validateCheckbox" finished-at="2023-05-02T08:48:41 IST" duration-ms="22405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carouselTest -->
-      </class> <!-- waits.AmazonForCarouselTest -->
+        </test-method> <!-- validateCheckbox -->
+      </class> <!-- waits.ElementSelectionStateValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

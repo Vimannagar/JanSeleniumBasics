@@ -28,14 +28,14 @@ public class AmazonTestCases {
 		
 		act.moveToElement(hoverelement).perform();
 		
-		WebElement signinbutton = driver.findElement(By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-button']"));
+		WebElement signinbutton = driver.findElement(By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-signin-button']"));
 	
 		signinbutton.click();
 		
-//		Right click using Actions class
-		WebElement continuebutton = driver.findElement(By.xpath("//*[@type='submit']"));
-		
-		act.contextClick(continuebutton).perform();
+////		Right click using Actions class
+//		WebElement continuebutton = driver.findElement(By.xpath("//*[@type='submit']"));
+//		
+//		act.contextClick(continuebutton).perform();
 	}
 	
 	
