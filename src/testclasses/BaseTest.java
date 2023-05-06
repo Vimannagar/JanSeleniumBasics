@@ -7,12 +7,15 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import pages.Search;
+import pages.Spirit;
 
 public class BaseTest {
 	
 static WebDriver driver;
 
 Search search;
+
+Spirit spirit;
 	
 	@BeforeSuite
 	public void initBrowser()
@@ -29,15 +32,17 @@ Search search;
 	public void createObject()
 	{
 		search = new Search(driver);
+		
+		spirit = new Spirit(driver);
 	}
 	
 	
 	
-	@AfterSuite
-	public void tearDown()
-	{
-		driver.close();
-	}
+//	@AfterSuite
+//	public void tearDown()
+//	{
+//		driver.close();
+//	}
 
 	
 	

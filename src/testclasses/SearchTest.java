@@ -7,7 +7,7 @@ public class SearchTest extends BaseTest
 {
 	
 	
-	@Test
+	@Test(priority = 1)
 	public void verifyTitle()
 	{
 		String title = search.getTitleOfPage();
@@ -17,10 +17,17 @@ public class SearchTest extends BaseTest
 		Assert.assertEquals(ispresent, true);
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void searchProduct()
 	{
 		search.searchItems("Malt");
+	}
+	
+	
+	@Test(priority = 3, enabled = false)
+	public void validateSearchResults()
+	{
+		search.getSearchResults();
 	}
 
 }

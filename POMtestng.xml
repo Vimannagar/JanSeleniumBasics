@@ -5,6 +5,7 @@
     <classes>
       <class name="testclasses.SearchTest"/>
       
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
