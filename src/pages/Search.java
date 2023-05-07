@@ -11,53 +11,52 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Search {
-	
+
 	WebDriver driver;
-	
+
 	By searchbox = By.xpath("//*[@class='wbr-main-search']");
-	
+
 	By searchresults = By.xpath("//*[@class='typeahead__list']//span[@class='title']");
-	
-	
-	
-	public Search(WebDriver driver)
-	{
-		this.driver	= driver;
-		
-		
+
+	WebDriverWait wait;
+
+	public Search(WebDriver driver) {
+		this.driver = driver;
+
+		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+
 	}
-	
-	public void searchItems(String searchtext)
-	{
+
+	public void searchItems(String searchtext) {
 		driver.findElement(searchbox).sendKeys(searchtext);
-		
+
 	}
-	
-	
-	public String getTitleOfPage()
-	{
+
+	public String getTitleOfPage() {
 		String titleofpage = driver.getTitle();
-		
+
 		return titleofpage;
 	}
-	
-	
-	public void getSearchResults()
-	{
+
+	public void getSearchResults() {
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(searchresults));
+
 		List<WebElement> searchresult = driver.findElements(searchresults);
-		
-		for(WebElement result :searchresult)
-		{
-			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-			
+
+		WebElement optedvalue = null;
+		for (WebElement result : searchresult) {
+
 			String value = result.getText();
-			
+
 			System.out.println(value);
+
+			if (value.equals("THE BALVENIE 17 YRS SINGLE MALT")) {
+				optedvalue = result;
+
+			}
+
 		}
+		optedvalue.click();
 	}
-	
-	
-	
-		
 
 }

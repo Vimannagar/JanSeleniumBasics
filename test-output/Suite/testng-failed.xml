@@ -3,10 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testclasses.SpiritsTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="sortByAlphabet"/>
+          <include name="sortByHighPrice"/>
+          <include name="selectProduct"/>
+          <include name="createObject"/>
+        </methods>
+      </class> <!-- testclasses.SpiritsTest -->
       <class name="testclasses.SearchTest">
         <methods>
-          <include name="searchProduct"/>
           <include name="initBrowser"/>
+          <include name="validateSearchResults"/>
           <include name="createObject"/>
         </methods>
       </class> <!-- testclasses.SearchTest -->

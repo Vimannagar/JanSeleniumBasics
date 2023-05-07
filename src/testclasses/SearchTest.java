@@ -24,7 +24,7 @@ public class SearchTest extends BaseTest
 	}
 	
 	
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3)
 	public void validateSearchResults()
 	{
 		search.getSearchResults();
