@@ -28,7 +28,7 @@ public class AmazonTestCases {
 		
 		act.moveToElement(hoverelement).perform();
 		
-		WebElement signinbutton = driver.findElement(By.xpath("//*[@id='nav-flyout-ya-signin']//*[@class='nav-action-signin-button']"));
+		WebElement signinbutton = driver.findElement(By.xpath("//*[@id='nav-flyojksdhkjsut-ya-signin']//*[@class='nav-action-signin-button']"));
 	
 		signinbutton.click();
 		

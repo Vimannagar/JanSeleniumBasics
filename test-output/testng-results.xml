@@ -1,69 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-08T08:40:02 IST" name="Suite" finished-at="2023-05-08T08:40:17 IST" duration-ms="14546">
+  <suite started-at="2023-05-08T09:03:06 IST" name="Failed suite [Default suite]" finished-at="2023-05-08T09:03:06 IST" duration-ms="143">
     <groups>
     </groups>
-    <test started-at="2023-05-08T08:40:02 IST" name="Test" finished-at="2023-05-08T08:40:17 IST" duration-ms="14546">
-      <class name="testclasses.SearchTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:39:52 IST" name="initBrowser" finished-at="2023-05-08T08:40:02 IST" duration-ms="10692" status="PASS">
+    <test started-at="2023-05-08T09:03:06 IST" name="Default test(failed)" finished-at="2023-05-08T09:03:06 IST" duration-ms="143">
+      <class name="testngdiscussion.AmazonTestCases">
+        <test-method signature="loginToApp()[pri:2, instance:testngdiscussion.AmazonTestCases@57cf54e1]" started-at="2023-05-08T09:03:06 IST" name="loginToApp" finished-at="2023-05-08T09:03:06 IST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at testngdiscussion.AmazonTestCases.loginToApp(AmazonTestCases.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:02 IST" name="createObject" finished-at="2023-05-08T08:40:03 IST" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObject -->
-        <test-method signature="verifyTitle()[pri:1, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="verifyTitle" finished-at="2023-05-08T08:40:03 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="searchProduct()[pri:2, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="searchProduct" finished-at="2023-05-08T08:40:03 IST" duration-ms="314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method signature="validateSearchResults()[pri:3, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="validateSearchResults" finished-at="2023-05-08T08:40:05 IST" duration-ms="2250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchResults -->
-      </class> <!-- testclasses.SearchTest -->
-      <class name="testclasses.SpiritsTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:05 IST" name="createObject" finished-at="2023-05-08T08:40:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObject -->
-        <test-method signature="selectProduct()[pri:4, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:05 IST" name="selectProduct" finished-at="2023-05-08T08:40:07 IST" duration-ms="1409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProduct -->
-        <test-method signature="sortByHighPrice()[pri:5, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:07 IST" name="sortByHighPrice" finished-at="2023-05-08T08:40:10 IST" duration-ms="3758" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByHighPrice -->
-        <test-method signature="sortByAlphabet()[pri:6, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:10 IST" name="sortByAlphabet" finished-at="2023-05-08T08:40:14 IST" duration-ms="3361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByAlphabet -->
-      </class> <!-- testclasses.SpiritsTest -->
-      <class name="testclasses.AddToCartTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:14 IST" name="createObject" finished-at="2023-05-08T08:40:14 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObject -->
-        <test-method signature="selectItem()[pri:7, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:14 IST" name="selectItem" finished-at="2023-05-08T08:40:15 IST" duration-ms="1193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectItem -->
-        <test-method signature="verifyAddToCart()[pri:8, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:15 IST" name="verifyAddToCart" finished-at="2023-05-08T08:40:16 IST" duration-ms="733" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddToCart -->
-        <test-method signature="searchOnCartPage()[pri:9, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:16 IST" name="searchOnCartPage" finished-at="2023-05-08T08:40:17 IST" duration-ms="1024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnCartPage -->
-      </class> <!-- testclasses.AddToCartTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginToApp -->
+      </class> <!-- testngdiscussion.AmazonTestCases -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

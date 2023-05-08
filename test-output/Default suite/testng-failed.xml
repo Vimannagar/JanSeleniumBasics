@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="waits.ExplicitWait">
+      <class name="testngdiscussion.AmazonTestCases">
         <methods>
-          <include name="explicitTest"/>
+          <include name="loginToApp"/>
         </methods>
-      </class> <!-- waits.ExplicitWait -->
+      </class> <!-- testngdiscussion.AmazonTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
