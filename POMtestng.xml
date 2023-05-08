@@ -5,6 +5,7 @@
     <classes>
       <class name="testclasses.SearchTest"/>
        <class name="testclasses.SpiritsTest"/>
+        <class name="testclasses.AddToCartTest"/>
       
     </classes>
   </test> <!-- Test -->

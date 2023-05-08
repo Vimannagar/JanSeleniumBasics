@@ -6,6 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import pages.AddToCart;
 import pages.Search;
 import pages.Spirit;
 
@@ -16,6 +17,8 @@ static WebDriver driver;
 Search search;
 
 Spirit spirit;
+
+AddToCart addtocart;
 	
 	@BeforeSuite
 	public void initBrowser()
@@ -34,6 +37,8 @@ Spirit spirit;
 		search = new Search(driver);
 		
 		spirit = new Spirit(driver);
+		
+		addtocart = new AddToCart(driver);
 	}
 	
 	

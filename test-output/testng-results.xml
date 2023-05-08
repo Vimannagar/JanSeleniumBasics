@@ -1,51 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-07T08:52:14 IST" name="Suite" finished-at="2023-05-07T08:52:26 IST" duration-ms="11628">
+  <suite started-at="2023-05-08T08:40:02 IST" name="Suite" finished-at="2023-05-08T08:40:17 IST" duration-ms="14546">
     <groups>
     </groups>
-    <test started-at="2023-05-07T08:52:14 IST" name="Test" finished-at="2023-05-07T08:52:26 IST" duration-ms="11628">
+    <test started-at="2023-05-08T08:40:02 IST" name="Test" finished-at="2023-05-08T08:40:17 IST" duration-ms="14546">
       <class name="testclasses.SearchTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.SearchTest@51c668e3]" started-at="2023-05-07T08:52:04 IST" name="initBrowser" finished-at="2023-05-07T08:52:14 IST" duration-ms="10275" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:39:52 IST" name="initBrowser" finished-at="2023-05-08T08:40:02 IST" duration-ms="10692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SearchTest@51c668e3]" started-at="2023-05-07T08:52:14 IST" name="createObject" finished-at="2023-05-07T08:52:14 IST" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:02 IST" name="createObject" finished-at="2023-05-08T08:40:03 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method signature="verifyTitle()[pri:1, instance:testclasses.SearchTest@51c668e3]" started-at="2023-05-07T08:52:14 IST" name="verifyTitle" finished-at="2023-05-07T08:52:14 IST" duration-ms="40" status="PASS">
+        <test-method signature="verifyTitle()[pri:1, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="verifyTitle" finished-at="2023-05-08T08:40:03 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="searchProduct()[pri:2, instance:testclasses.SearchTest@51c668e3]" started-at="2023-05-07T08:52:14 IST" name="searchProduct" finished-at="2023-05-07T08:52:14 IST" duration-ms="176" status="PASS">
+        <test-method signature="searchProduct()[pri:2, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="searchProduct" finished-at="2023-05-08T08:40:03 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method signature="validateSearchResults()[pri:3, instance:testclasses.SearchTest@51c668e3]" started-at="2023-05-07T08:52:14 IST" name="validateSearchResults" finished-at="2023-05-07T08:52:17 IST" duration-ms="2788" status="PASS">
+        <test-method signature="validateSearchResults()[pri:3, instance:testclasses.SearchTest@25641d39]" started-at="2023-05-08T08:40:03 IST" name="validateSearchResults" finished-at="2023-05-08T08:40:05 IST" duration-ms="2250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchResults -->
       </class> <!-- testclasses.SearchTest -->
       <class name="testclasses.SpiritsTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SpiritsTest@537f60bf]" started-at="2023-05-07T08:52:17 IST" name="createObject" finished-at="2023-05-07T08:52:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:05 IST" name="createObject" finished-at="2023-05-08T08:40:05 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method signature="selectProduct()[pri:4, instance:testclasses.SpiritsTest@537f60bf]" started-at="2023-05-07T08:52:17 IST" name="selectProduct" finished-at="2023-05-07T08:52:18 IST" duration-ms="1077" status="PASS">
+        <test-method signature="selectProduct()[pri:4, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:05 IST" name="selectProduct" finished-at="2023-05-08T08:40:07 IST" duration-ms="1409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProduct -->
-        <test-method signature="sortByHighPrice()[pri:5, instance:testclasses.SpiritsTest@537f60bf]" started-at="2023-05-07T08:52:18 IST" name="sortByHighPrice" finished-at="2023-05-07T08:52:22 IST" duration-ms="3466" status="PASS">
+        <test-method signature="sortByHighPrice()[pri:5, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:07 IST" name="sortByHighPrice" finished-at="2023-05-08T08:40:10 IST" duration-ms="3758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByHighPrice -->
-        <test-method signature="sortByAlphabet()[pri:6, instance:testclasses.SpiritsTest@537f60bf]" started-at="2023-05-07T08:52:22 IST" name="sortByAlphabet" finished-at="2023-05-07T08:52:26 IST" duration-ms="3950" status="PASS">
+        <test-method signature="sortByAlphabet()[pri:6, instance:testclasses.SpiritsTest@4686afc2]" started-at="2023-05-08T08:40:10 IST" name="sortByAlphabet" finished-at="2023-05-08T08:40:14 IST" duration-ms="3361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByAlphabet -->
       </class> <!-- testclasses.SpiritsTest -->
+      <class name="testclasses.AddToCartTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:14 IST" name="createObject" finished-at="2023-05-08T08:40:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="selectItem()[pri:7, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:14 IST" name="selectItem" finished-at="2023-05-08T08:40:15 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+        <test-method signature="verifyAddToCart()[pri:8, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:15 IST" name="verifyAddToCart" finished-at="2023-05-08T08:40:16 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method signature="searchOnCartPage()[pri:9, instance:testclasses.AddToCartTest@38cee291]" started-at="2023-05-08T08:40:16 IST" name="searchOnCartPage" finished-at="2023-05-08T08:40:17 IST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnCartPage -->
+      </class> <!-- testclasses.AddToCartTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
