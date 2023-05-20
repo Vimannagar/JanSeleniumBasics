@@ -52,6 +52,14 @@ public class ConditionBasedMethods {
 		
 		System.out.println(isselectedafter);
 		
+		
+		
+	}
+	
+	public void clickOnCheckbox(String companyname) {
+		
+		WebDriver driver = null;
+		driver.findElement(By.xpath("//*[text()='"+companyname+"']/preceding-sibling::div/child::label/child::input")).click();
 	}
 
 }
